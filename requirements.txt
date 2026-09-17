@@ -1,0 +1,30 @@
+# =====================================================================
+# Thesis Deep Learning Pipeline Requirements
+# Skin Lesion Classification across Fitzpatrick Skin Tone Subgroups
+# Models: EfficientNetV2-S, Swin Transformer V2-S, DINOv2-S
+# Datasets: Stanford DDI, Google SCIN, PAD-UFES-20, SkinCON
+# =====================================================================
+
+# Deep Learning Framework (Note: Install CUDA build via setup script)
+torch>=2.4.0
+torchvision>=0.19.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+pyarrow>=14.0.0
+
+# Image Processing & Visualization
+pillow>=10.0.0
+matplotlib>=3.7.0
+
+# Dataset APIs & Utilities
+tqdm>=4.65.0
+requests>=2.31.0
+redivis>=0.20.0
+datasets>=3.0.0
+huggingface_hub>=0.20.0
+gdown>=5.0.0
+PyYAML>=6.0.0
